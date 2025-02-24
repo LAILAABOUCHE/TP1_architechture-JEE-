@@ -1,7 +1,15 @@
 package metier;
 
+import DAO.IDAO;
+
 public interface metier {
 
- double calcul();
+    //couplage faible
+
+     public  IDAO dao=null;
+
+
+      double calcul();
+
 
 }

@@ -1,10 +1,11 @@
 package DAO;
 
-public interface
-dao {
+public interface IDAO
+{
 
 
     double getdata();
+
 
 
 }

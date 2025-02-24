@@ -1,6 +1,6 @@
 package DAO;
 
-public class daoIMPL implements dao{
+public class daoIMPL implements IDAO {
      @Override
     public double getdata(){
          System.out.println("version base de données");
