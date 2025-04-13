@@ -7,6 +7,9 @@ import static metier.metier.dao;
 public class PresentationV1 {
 
      public static void main(String[]args){
+         /*
+         injection des dépendnces par instantiation statique
+          */
 
          daoIMPL d= new daoIMPL();
          metierIMP metier= new metierIMP();
