@@ -14,7 +14,12 @@ public class metierIMP implements metier {
         return res;
     }
 
-    public void setDAO(){
+    /**
+     *
+     * pour injecter dans la var un objet
+     */
+
+    public void setDAO( IDAO dao){
           this.dao=dao;
 
     }
